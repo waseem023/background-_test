@@ -5,7 +5,7 @@ function binarySearch(arr, key){
   	let mid = Math.floor((left + right)/2);
     
     if(arr[mid] == key){
-    	return mid;
+    	return mid;//testing for git
     }
     else if(arr[mid] > key){
     	right = mid - 1;
